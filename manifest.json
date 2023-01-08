@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "No Magic in Slack",
+  "description": "Use sign in with a password for slack, instead of a magic code",
+  "version": "1.0.0",
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.slack.com/",
+    "*://*.slack.com/*"
+  ],
+
+  "background": {
+    "scripts": [
+      "src/background.js"
+    ]
+  }
+}

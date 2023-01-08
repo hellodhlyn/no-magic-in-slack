@@ -1,0 +1,16 @@
+{
+  "name": "no-magic-in-slack",
+  "version": "1.0.0",
+  "description": "Use sign in with a password for slack, instead of a magic code",
+  "main": "src/index.js",
+  "repository": "https://github.com/hellodhlyn/no-magic-in-slack",
+  "author": "Hoerin Doh",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "web-ext build --overwrite-dest --source-dir ."
+  },
+  "devDependencies": {
+    "web-ext": "^7.4.0"
+  }
+}
